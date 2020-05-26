@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Modulo 01</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="loader">
+            <div class="c-loader"> </div>
+            <span class="wait"> Aguarde...</span>
+        </div>
+        <h1 class="center">Pesquisa de usuários</h1>
+        <label>Busca</label>
+        <div class="container-iputData">
+            <input
+                disabled="true"
+                type="text"
+                id="searchName"
+                width="100"
+            />
+            <a id="btnSearch" class="waves-effect waves-light btn disabled" >Buscar</a>
+        </div>
+
+        <div class="result">
+            <div class="user-list"></div>
+            <div class="summary"></div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

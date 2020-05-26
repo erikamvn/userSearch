@@ -1,0 +1,69 @@
+.loader{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+}
+  
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+}
+
+.wait{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.container-iputData {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#btnSearch{
+    margin-left: 20px;
+}
+
+.result {
+    display: flex;
+}
+
+.summary,
+.user-list {
+    width: 50vw;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+h4 {
+    margin-bottom: 24px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.summary span{
+    font-weight: bold;
+}
